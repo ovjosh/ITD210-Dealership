@@ -1,0 +1,88 @@
+html {
+ background: gray; 
+}
+
+/* ~~ Top Navigation Bar ~~ */
+header {
+   text-align: right;
+   width: 100% 
+}
+ 
+
+.navbar {
+	 display:grid;
+  background-color: #352d2f;
+  height: auto;
+  width: auto;
+  
+}
+
+.navbar img{
+ position: absolute;
+  width: 5em;
+  height: 5em;
+  padding: 5px;
+  margin-top: 15px;
+ margin-left:10px;
+}
+
+.navbar ul {
+	
+	width: auto%;
+	height:70px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  
+  
+}
+
+.navbar li {
+  list-style-type: none;
+  padding: 0px;
+  display: inline;
+}
+
+.navbar li a {
+  color: black;
+  font-size: auto;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
+
+/* centered image */
+
+.centerImage {
+  display:grid;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+article {
+  display: grid;
+  width: auto;
+   padding: 5px 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+aside { 
+  display: grid;
+        width:auto;
+   padding: 5px 15px;
+    margin-left: 5px;
+  margin-right: 5px;
+}
+
+footer {
+      display:grid;
+      width: auto;
+   padding: 5px 15px;
+      text-align: right;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
