@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   
     <title>Murphy Auto</title>
-		<link href="reset.css" rel="stylesheet"/>
-    <link  href="style.css" rel="stylesheet"/>
+		
 
           <!-- Bootstrap -->
       <!-- Latest compiled and minified CSS -->
@@ -15,17 +14,18 @@
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+	  <link href="reset.css" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet"/>
   </head>
   <body>
     
     <header>
       <img src="Dealership Logo.png"  height="125">
       <div id="logoText" height="125">
-      <p>4256 Virginia Beach Blvd</p>
-      <p>Virginia Beach, VA 23454</p>
-      <p>757-954-2412</p>
-      </div>
+		<p>4256 Virginia Beach Blvd</p>
+		<p>Virginia Beach, VA 23454</p>
+		<p>757-954-2412</p>
+	  </div>
 
       <nav class="navbar navbar-inverse">
           <div class="container-fluid">
@@ -53,8 +53,12 @@
     </header>
 
     <main>
-      <p>Proudly hailed as 'The Ugliest SUV Ever Made' by virtually every auto reviewer in the 20th century,
-        the Pontiac Aztek lives up to its reputation.  Here at Murphy Auto, we have them in stock!</p>
+      <h1>2005 Pontiac Aztek</h1>
+      <p></p>
+      <div>Proudly hailed as 'The Ugliest SUV Ever Made' by virtually every auto reviewer in the 20th century,
+        the Pontiac Aztek lives up to its reputation.  Here at Murphy Auto, we actually have one of these ugly 
+        hunks of metal and plastic in stock!</div>
+        <p></p>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -98,11 +102,73 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-
+          <p></p>
+          <div class="table-responsive">
+            <table class="table table-hover table-dark">
+              <thead>
+                <tr>
+                  <th scope="col" class="text-center">Item</th>
+                  <th scope="col" class="text-center">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Engine Type</td>
+                  <td>Gas</td>
+                </tr>
+                <tr>
+                  <td>Transmission</td>
+                  <td>4 speed automatic</td>
+                </tr>
+                <tr>
+                  <td>Cylinders</td>
+                  <td>V6</td>
+                </tr>
+                <tr>
+                  <td>Combined MPG</td>
+                  <td>19</td>
+                </tr>
+                <tr>
+                  <td>Total Seating</td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>Drive Type</td>
+                  <td>Front wheel drive</td>
+                </tr>
+                <tr>
+                  <td>Range in Miles (city/hwy)</td>
+                  <td>306/432</td>
+                </tr>
+                <tr>
+                  <td>Torque</td>
+                  <td>210 ft-lbs @ 4000 rpm</td>
+                </tr>
+                <tr>
+                  <td>Base Engine Size</td>
+                  <td>3.4 L</td>
+                </tr>
+                <tr>
+                  <td>Horsepower</td>
+                  <td>185 hp @ 5200 rpm</td>
+                </tr>
+                <tr>
+                  <td>Turning Circle</td>
+                  <td>36.4 ft</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
     </main>
 
     <footer>
-        <div>&copy;	2019 ITD 210</div>
+      <p style="text-align: left">&copy;	2019 ITD 210
+      <span style="float:right">
+      <img src="images/fblogo.png" height="25">
+      <img src="images/iglogo.png" height="25">
+      <img src="images/myspacelogo.png" height="25">
+      </span>
+      </p>
     </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

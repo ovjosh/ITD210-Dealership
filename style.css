@@ -2,53 +2,11 @@ html {
  background: #363636; 
 }
 
-/* ~~ Top Navigation Bar ~~ */
 header {
- 
   width: 100%;
   color: #4f61ff;
   background-color: #363636;
 }
- 
-/* .navbar-default {
-	display: grid;
-  height: auto;
-  width: auto;
-}
-
-.navbar img{
-  position: absolute;
-  width: 5em;
-  height: 5em;
-  padding: 5px;
-  margin-top: 15px;
-  margin-left:10px;
-}
-
-.navbar ul {
-	width: auto;
-	height:70px;
-  padding: 5px;
-  margin: 5px;
-  text-align: center;
-}
-
-.navbar li {
-  list-style-type: none;
-  padding: 0px;
-  display: inline;
-}
-
-.navbar li a {
-  color: black;
-  font-size: auto;
-  text-decoration: none;
-  line-height: 70px;
-  padding: 5px 15px;
-  opacity: 0.7;
-}
-*/
-/* centered image */
 
 .centerImage {
   display:grid;
@@ -56,51 +14,50 @@ header {
   margin-right: auto;
 }
 
-article {
-  display: grid;
-  width: auto;
-  padding: 5px 15px;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
 main {
   text-align: center;
   background-color: #363636;
   color: #ffffff;
- 
-
 }
 
-aside { 
-  display: grid;
-  width:auto;
-  padding: 5px 15px;
-  margin-left: 5px;
-  margin-right: 5px;
+main > h1 {
+  font-size: 175%;
+}
+
+.table {
+  text-align: center;
+  align-content: center;
+  border-radius: 5px;
+  width: 50%;
+  margin: 0px auto;
+  float: none;
 }
 
 footer {
-  display: grid;
+  display:grid;
   width: auto;
   padding: 5px 5px;
   text-align: left;
+  vertical-align: middle;
   background-color: #404CB2;
   color: #FFD84F;
-  
 }
 
 .carousel-inner > .item > img {
     margin: 0 auto;
+	height: 100%;
 }
 
+.navbar.navbar-inverse {
+	background-color: #363636;
+	border: none;
+}
 
 header div#logoText {
 	float: right;
 	padding-top: 25px;
 }
 
-
-
-
-
+main p {
+	padding-bottom: 25px;
+}
